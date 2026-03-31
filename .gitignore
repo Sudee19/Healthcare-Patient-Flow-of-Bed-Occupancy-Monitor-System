@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Spark
+*.jar
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Data (generated)
+data/processed/
+*.parquet
+*.db
+
+# Keep raw data for demo (small files)
+!data/raw/
+!data/raw/test_events.json
+!data/raw/test_events_ndjson.json
+# Exclude large database file
+data/raw/hospital.db
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/airflow.cfg
+airflow/webserver_config.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files and outputs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.html
+logs/
+*.log
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# pytest
+.pytest_cache/
+
+# Environments
+.env.local
+.env.*.local
+
+# Database
+*.sqlite
+*.sqlite3

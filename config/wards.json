@@ -1,0 +1,72 @@
+{
+  "wards": [
+    {
+      "ward_id": "W-001",
+      "ward_name": "ICU East",
+      "total_beds": 20,
+      "normal_admission_rate": {"min": 1, "max": 2},
+      "spike_admission_rate": {"min": 4, "max": 6},
+      "avg_length_of_stay_hours": 72,
+      "diagnosis_categories": ["cardiac", "respiratory", "neurological", "sepsis", "post_surgical"]
+    },
+    {
+      "ward_id": "W-002",
+      "ward_name": "ICU West",
+      "total_beds": 20,
+      "normal_admission_rate": {"min": 1, "max": 2},
+      "spike_admission_rate": {"min": 4, "max": 6},
+      "avg_length_of_stay_hours": 72,
+      "diagnosis_categories": ["cardiac", "respiratory", "neurological", "sepsis", "multi_organ_failure"]
+    },
+    {
+      "ward_id": "W-003",
+      "ward_name": "General A",
+      "total_beds": 40,
+      "normal_admission_rate": {"min": 3, "max": 5},
+      "spike_admission_rate": {"min": 8, "max": 12},
+      "avg_length_of_stay_hours": 48,
+      "diagnosis_categories": ["pneumonia", "diabetes", "hypertension", "infection", "dehydration"]
+    },
+    {
+      "ward_id": "W-004",
+      "ward_name": "General B",
+      "total_beds": 40,
+      "normal_admission_rate": {"min": 3, "max": 5},
+      "spike_admission_rate": {"min": 8, "max": 12},
+      "avg_length_of_stay_hours": 48,
+      "diagnosis_categories": ["fracture", "appendicitis", "gallbladder", "hernia", "ulcer"]
+    },
+    {
+      "ward_id": "W-005",
+      "ward_name": "Pediatrics",
+      "total_beds": 25,
+      "normal_admission_rate": {"min": 2, "max": 3},
+      "spike_admission_rate": {"min": 5, "max": 8},
+      "avg_length_of_stay_hours": 36,
+      "diagnosis_categories": ["asthma", "bronchiolitis", "fever", "gastroenteritis", "seizure"]
+    },
+    {
+      "ward_id": "W-006",
+      "ward_name": "Emergency",
+      "total_beds": 30,
+      "normal_admission_rate": {"min": 4, "max": 6},
+      "spike_admission_rate": {"min": 10, "max": 15},
+      "avg_length_of_stay_hours": 8,
+      "diagnosis_categories": ["trauma", "cardiac_arrest", "stroke", "poisoning", "burns", "accident"]
+    },
+    {
+      "ward_id": "W-007",
+      "ward_name": "Oncology",
+      "total_beds": 15,
+      "normal_admission_rate": {"min": 1, "max": 2},
+      "spike_admission_rate": {"min": 3, "max": 5},
+      "avg_length_of_stay_hours": 96,
+      "diagnosis_categories": ["chemotherapy", "radiation", "biopsy", "palliative", "immunotherapy"]
+    }
+  ],
+  "sla_threshold_percent": 85,
+  "critical_threshold_percent": 95,
+  "breach_consecutive_hours": 2,
+  "anomaly_z_score_threshold": 2.5,
+  "baseline_window_days": 7
+}
