@@ -343,35 +343,6 @@ pytest --cov=src tests/
 
 ---
 
-## 🎥 Live Demo
-
-### 📹 **Video Demonstrations**
-
-#### 🏥 Healthcare Patient Flow Monitor Web App
-![Healthcare Monitor Demo](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Healthcare%20Patient%20Flow%20of%20Bed%20Occupancy%20Monitor%20web%20app%20demo)
-
-**🎥 [Click here to watch the healthcare monitoring dashboard in action](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Healthcare%20Patient%20Flow%20of%20Bed%20Occupancy%20Monitor%20web%20app%20demo)**
-
-*Features demonstrated: Real-time occupancy monitoring, SLA breach detection, anomaly detection, AI-powered analytics*
-
-#### 🔄 Airflow Workflow Management Demo
-![Airflow Demo](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Airflow%20demo)
-
-**🔄 [Click here to watch Airflow workflow automation in action](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Airflow%20demo)**
-
-*Features demonstrated: Automated data pipelines, SLA breach monitoring, workflow orchestration*
-
----
-
-### 📋 **How to View Videos:**
-
-1. **Click the video images above** - they will open the video in your browser
-2. **Or click the text links** - direct download and playback
-3. **Videos are hosted on GitHub** - no external hosting needed
-4. **Works on all devices** - desktop, mobile, tablet
-
----
-
 ### 🎯 **Project Impact:**
 - **190 hospital beds** monitored in real-time
 - **3 critical wards** identified requiring attention
