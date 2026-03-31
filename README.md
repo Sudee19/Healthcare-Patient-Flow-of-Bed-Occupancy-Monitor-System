@@ -1,7 +1,5 @@
 # 🏥 Healthcare Patient Flow & Bed Occupancy Monitor
 
-![Healthcare Medallion Architecture](docs/architecture.png)
-
 A comprehensive data engineering and analytics platform that monitors hospital bed occupancy in real time, detects anomalous admission patterns, and generates AI-powered explanations for SLA breaches.
 
 > **Portfolio project** demonstrating: Kafka streaming, PySpark medallion architecture, Airflow orchestration, LLM integration, FastAPI, React dashboard, Azure cloud deployment, and Databricks.
@@ -80,32 +78,7 @@ Azure Functions → Azure Kafka → Databricks → Azure SQL → Airflow (Azure)
 
 ---
 
-## � **Video Demos**
-
-### 🎥 Healthcare Patient Flow Web App Demo
-[![Watch Web App Demo](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Healthcare%20Patient%20Flow%20of%20Bed%20Occupancy%20Monitor%20web%20app%20demo)](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Healthcare%20Patient%20Flow%20of%20Bed%20Occupancy%20Monitor%20web%20app%20demo)
-
-**Features demonstrated:**
-- 🔴 Real-time occupancy monitoring dashboard
-- 📊 Interactive ward status displays
-- ⚠️ SLA breach alerts and notifications
-- 📈 Historical occupancy trends and analytics
-- 🏥 Patient admission/discharge tracking
-- 🎯 Responsive design for mobile and desktop
-
-### 🌪 Airflow Workflow Management Demo
-[![Watch Airflow Demo](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Airflow%20demo)](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Airflow%20demo)
-
-**Features demonstrated:**
-- 🔄 Automated data pipeline orchestration
-- 📊 DAG management and scheduling
-- 📈 Pipeline monitoring and logging
-- ⚙️ Configuration management interface
-- 🎯 Task dependency visualization
-
----
-
-## �🚀 **Quick Start**
+## 🚀 **Quick Start**
 
 ### Prerequisites
 - Python 3.11+
@@ -367,6 +340,66 @@ pytest --cov=src tests/
 - **Jupyter Notebooks**: `notebooks/Healthcare_Occupancy_EDA.ipynb`
 - **HTML Documentation**: Open `Healthcare_Project_Complete_Guide.html`
 - **API Docs**: Visit `/docs` when API is running
+
+---
+
+## 🎥 Live Demo
+
+### 📹 **Video Demonstrations**
+
+#### 🏥 Healthcare Patient Flow Monitor Web App
+![Healthcare Monitor Demo](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Healthcare%20Patient%20Flow%20of%20Bed%20Occupancy%20Monitor%20web%20app%20demo)
+
+**🎥 [Click here to watch the healthcare monitoring dashboard in action](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Healthcare%20Patient%20Flow%20of%20Bed%20Occupancy%20Monitor%20web%20app%20demo)**
+
+*Features demonstrated: Real-time occupancy monitoring, SLA breach detection, anomaly detection, AI-powered analytics*
+
+#### 🔄 Airflow Workflow Management Demo
+![Airflow Demo](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Airflow%20demo)
+
+**🔄 [Click here to watch Airflow workflow automation in action](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Airflow%20demo)**
+
+*Features demonstrated: Automated data pipelines, SLA breach monitoring, workflow orchestration*
+
+---
+
+### 📋 **How to View Videos:**
+
+1. **Click the video images above** - they will open the video in your browser
+2. **Or click the text links** - direct download and playback
+3. **Videos are hosted on GitHub** - no external hosting needed
+4. **Works on all devices** - desktop, mobile, tablet
+
+---
+
+### 🎯 **Project Impact:**
+- **190 hospital beds** monitored in real-time
+- **3 critical wards** identified requiring attention
+- **8 SLA breaches** detected and tracked
+- **10,047 patient events** processed and analyzed
+- **2,955 anomaly checks** performed
+
+### 🚀 **Features Showcased:**
+- 🔴 **Real-time Occupancy Monitoring** across 7 hospital wards
+- ⚠️ **SLA Breach Detection** with automated alerts
+- 🚨 **Anomaly Detection** using statistical methods
+- 📈 **Interactive Dashboards** with live updates
+- 🤖️ **AI-Powered Insights** with Claude LLM integration
+- 🔄 **Workflow Automation** with Apache Airflow
+
+### 🛠️ **Technology Stack:**
+- **Backend**: Python, FastAPI, SQLite, SQLAlchemy
+- **Data Engineering**: Kafka, PySpark, Apache Airflow
+- **Big Data**: Databricks, Azure Cloud
+- **Frontend**: React 18, TypeScript, TailwindCSS
+- **AI/ML**: Claude LLM, Scikit-learn, Statsmodels
+
+### 📊 **Project Impact:**
+- **190 hospital beds** monitored in real-time
+- **3 critical wards** identified requiring attention
+- **8 SLA breaches** detected and tracked
+- **10,047 patient events** processed and analyzed
+- **2,955 anomaly checks** performed
 
 ---
 
