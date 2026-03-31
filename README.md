@@ -600,7 +600,7 @@ python -m simulator.run_simulator --mode realtime --duration 30 --outbreak --out
 
 ### Medallion Architecture
 
-```mermaid
+---
 flowchart LR
     subgraph Data Generation
       K([Kafka Topic / Simulator\nHospital ADT Events])
