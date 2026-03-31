@@ -1,5 +1,12 @@
 # Healthcare Patient Flow & Bed Occupancy Monitor System
 
+#### Healthcare Patient Flow Monitor Web App
+> **🎥 Click here to watch the complete healthcare monitoring dashboard demo:**
+> 
+> **[🎥 Watch Healthcare Monitor Demo](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Healthcare%20Patient%20Flow%20of%20Bed%20Occupancy%20Monitor%20web%20app%20demo)**
+> 
+> This video demonstrates the real-time bed occupancy monitoring system with SLA breach detection, anomaly detection, and AI-powered analytics.
+
 A comprehensive data engineering and analytics platform that monitors hospital bed occupancy in real time, detects anomalous admission patterns, and generates AI-powered explanations for SLA breaches.
 
 > **Portfolio project** demonstrating: Kafka streaming, PySpark medallion architecture, Airflow orchestration, LLM integration, FastAPI, React dashboard, Azure cloud deployment, and Databricks.
