@@ -129,22 +129,6 @@ project-root/
 │   └── interview_prep.md
 └── README.md
 ```
-Data Contract
-Event Structure (HL7-Style ADT Events)
-{
-  "message_id": "uuid",
-  "event_type": "ADT_A01 | ADT_A02 | ADT_A03",
-  "patient_id": "P-XXXXXX",
-  "ward_id": "W-XXX",
-  "ward_name": "ICU East | ICU West | General A | General B | Pediatrics | Emergency | Oncology",
-  "bed_id": "B-XXXX",
-  "timestamp": "ISO 8601",
-  "diagnosis_category": "cardiac | respiratory | trauma | ...",
-  "transfer_from_ward": "W-XXX (only for ADT_A02)",
-  "age_group": "pediatric | adult | geriatric",
-  "priority": "emergency | elective | transfer"
-}
----
 ### 📚 **Documentation**
 - 📖 **Complete Technical Guide** (`docs/Healthcare_Project_Complete_Guide.md`)
 - 📋 **Executive Summary** (`docs/Executive_Summary.md`)
