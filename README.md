@@ -1,4 +1,4 @@
-# 🏥 Healthcare Patient Flow & Bed Occupancy Monitor
+# Healthcare Patient Flow & Bed Occupancy Monitor System
 
 ![Healthcare Medallion Architecture](docs/architecture.png)
 
