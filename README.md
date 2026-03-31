@@ -80,7 +80,32 @@ Azure Functions → Azure Kafka → Databricks → Azure SQL → Airflow (Azure)
 
 ---
 
-## 🚀 **Quick Start**
+## � **Video Demos**
+
+### 🎥 Healthcare Patient Flow Web App Demo
+[![Watch Web App Demo](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Healthcare%20Patient%20Flow%20of%20Bed%20Occupancy%20Monitor%20web%20app%20demo)](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Healthcare%20Patient%20Flow%20of%20Bed%20Occupancy%20Monitor%20web%20app%20demo)
+
+**Features demonstrated:**
+- 🔴 Real-time occupancy monitoring dashboard
+- 📊 Interactive ward status displays
+- ⚠️ SLA breach alerts and notifications
+- 📈 Historical occupancy trends and analytics
+- 🏥 Patient admission/discharge tracking
+- 🎯 Responsive design for mobile and desktop
+
+### 🌪 Airflow Workflow Management Demo
+[![Watch Airflow Demo](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Airflow%20demo)](https://github.com/Sudee19/Healthcare-Patient-Flow-of-Bed-Occupancy-Monitor-system/releases/download/v1.0-demo/Airflow%20demo)
+
+**Features demonstrated:**
+- 🔄 Automated data pipeline orchestration
+- 📊 DAG management and scheduling
+- 📈 Pipeline monitoring and logging
+- ⚙️ Configuration management interface
+- 🎯 Task dependency visualization
+
+---
+
+## �🚀 **Quick Start**
 
 ### Prerequisites
 - Python 3.11+
