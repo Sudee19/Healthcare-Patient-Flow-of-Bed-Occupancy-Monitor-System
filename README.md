@@ -51,23 +51,83 @@ Azure Functions → Azure Kafka → Databricks → Azure SQL → Airflow (Azure)
 
 ### 🏗️ **Project Structure**
 ```
-├── 📂 data/                    # Data storage
-│   ├── 📂 raw/                 # Original data sources
-│   └── 📂 processed/           # Cleaned data outputs
-├── 📂 src/                     # Source code
-│   ├── 📂 api/                 # API endpoints
-│   ├── 📂 data_processing/     # ETL pipelines
-│   ├── 📂 analytics/           # Analytics & ML models
-│   └── 📂 utils/               # Common utilities
-├── 📂 notebooks/               # Jupyter analysis notebooks
-├── 📂 scripts/                 # Automation scripts
-├── 📂 tests/                   # Test suites
-├── 📂 docs/                    # Documentation
-├── 📂 frontend/                # React dashboard
-├── 📂 api/                     # FastAPI backend
-├── 📂 airflow/                 # Airflow DAGs
-├── 📂 spark/                   # Spark jobs
-└── 📂 azure/                   # Cloud deployment
+project-root/
+├── docker-compose.yml           # Kafka + Zookeeper
+├── requirements.txt             # Python dependencies
+├── config/
+│   └── wards.json              # Ward configuration
+├── simulator/
+│   ├── __init__.py
+│   ├── event_generator.py      # HL7 event generator
+│   ├── kafka_producer.py       # Kafka producer
+│   └── config.py               # Simulator settings
+├── spark/
+│   ├── bronze_ingestion.py     # Raw event storage
+│   ├── silver_cleaning.py      # Data quality rules
+│   ├── gold_aggregation.py     # Occupancy calculations
+│   └── anomaly_detection.py    # Z-score computation
+├── airflow/
+│   └── dags/
+│       ├── hourly_snapshot.py
+│       ├── daily_report.py
+│       └── sla_monitoring.py
+├── llm/
+│   ├── context_assembler.py
+│   ├── prompt_templates.py
+│   └── llm_client.py
+├── api/
+│   ├── main.py                 # FastAPI app
+│   ├── models.py               # Pydantic models
+│   ├── routes/
+│   │   ├── wards.py
+│   │   ├── alerts.py
+│   │   └── anomalies.py
+│   └── websocket.py
+├── frontend/
+│   ├── package.json
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   │   ├── WardGrid.jsx
+│   │   │   ├── WardCard.jsx
+│   │   │   ├── AlertFeed.jsx
+│   │   │   ├── WardDetailModal.jsx
+│   │   │   ├── AnomalyBanner.jsx
+│   │   │   └── OccupancyGauge.jsx
+│   │   └── styles/
+│   ├── public/
+│   └── index.html
+├── analytics/
+│   ├── sql_queries/             # 15 SQL business questions
+│   └── eda_notebook.ipynb       # Jupyter EDA
+├── azure/
+│   ├── setup_guide.md           # Manual Azure setup instructions
+│   ├── adf_pipelines/
+│   └── sql_schema.sql
+├── databricks/
+│   ├── setup_guide.md
+|   ├── 0 - Databricks Notebooks/
+│       ├── 01_Introduction_to_Databricks.py       
+│       ├── 02_Working_with_DataFrames.py
+|   ├── 1- Databricks Lakehouse Platform/
+│       ├── 01_Lakehouse_Architecture.py
+|   ├── 2- ELT with Spark SQL and Python/
+│       ├── 01_Silver_ELT_Processing.py
+|   ├── 3- Incremental Data Processing/
+│       ├── 01_Structured_Streaming.py
+|   ├── 4- Production Pipelines/
+│       ├── 01_Gold_Aggregation_and_Anomalies.py
+│   └── notebooks/
+│       ├── 01_bronze_ingestion.py
+│       ├── 02_silver_cleaning.py
+│       ├── 03_gold_aggregation.py
+│       └── 04_anomaly_detection.py
+├── docs/
+│   ├── architecture_local.md
+│   ├── architecture_cloud.md
+│   ├── data_lineage.md
+│   └── interview_prep.md
+└── README.md
 ```
 
 ### 📚 **Documentation**
