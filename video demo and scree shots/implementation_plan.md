@@ -1,8 +1,6 @@
 # Healthcare Patient Flow & Bed Occupancy Monitor — Implementation Plan
 
 ## Build Strategy
-
-### ✅ What I Will Build Automatically
 | Phase | Components |
 |-------|-----------|
 | Phase 0 | Architecture docs, data contracts, project structure |
@@ -15,13 +13,10 @@
 | Phase 9 | 15 SQL business questions, Jupyter EDA notebook |
 | Phase 10 | README, architecture diagrams (Mermaid), interview prep |
 
-### 📋 What You Must Do Manually (Procedures Provided)
 | Phase | Components | Reason |
 |-------|-----------|--------|
-| Phase 7 | Azure resources (ADLS, SQL, ADF) | Requires Azure subscription + portal login |
-| Phase 8 | Databricks Community Edition | Requires account creation + cluster setup |
-| Phase 9 | Power BI / Tableau dashboards | Requires desktop app + interactive design |
-| Phase 10 | Demo video recording | Requires screen recording + narration |
+| Phase 7 | Azure resources (ADLS, SQL, ADF) | 
+| Phase 8 | Databricks |
 
 ---
 
