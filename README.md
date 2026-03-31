@@ -1,7 +1,5 @@
 # Healthcare Patient Flow & Bed Occupancy Monitor System
 
-![Healthcare Medallion Architecture](docs/architecture.png)
-
 A comprehensive data engineering and analytics platform that monitors hospital bed occupancy in real time, detects anomalous admission patterns, and generates AI-powered explanations for SLA breaches.
 
 > **Portfolio project** demonstrating: Kafka streaming, PySpark medallion architecture, Airflow orchestration, LLM integration, FastAPI, React dashboard, Azure cloud deployment, and Databricks.
